@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/elvira/Study/course3/Parallel-computing-processes/Parallel-computing-processes-ada/lab-work-1/main.gpr
+20240222140851 e66b3be88a3e44126d30a4a3c54e2c12
+[BOUND OBJECT FILES]
+/home/elvira/Study/course3/Parallel-computing-processes/Parallel-computing-processes-ada/lab-work-1/.objs/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/elvira/Study/course3/Parallel-computing-processes/Parallel-computing-processes-ada/lab-work-1/.objs/
+-L/home/elvira/Study/course3/Parallel-computing-processes/Parallel-computing-processes-ada/lab-work-1/.objs/
+-L/usr/lib64/gcc/x86_64-suse-linux/13/adalib/
+-static
+/usr/lib64/gcc/x86_64-suse-linux/13/adalib/libgnarl.a
+/usr/lib64/gcc/x86_64-suse-linux/13/adalib/libgnat.a
+-lrt
+-lpthread
+-ldl
