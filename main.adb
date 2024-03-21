@@ -3,11 +3,11 @@ use Ada.Text_IO;
 
 procedure Main is
    is_break: Boolean := false;
-   threads_num : Integer := 5;
+   threads_num : Integer := 7;
    pragma Atomic(is_break);
    thread_id : Integer := 0;
-   allowed_time_seconds : Duration := 55.0;
-   allowed_time_seconds_wait : Duration := 3.0;
+   allowed_time_seconds : Duration := 5.0;
+   --allowed_time_seconds_wait : Duration := 3.0;
 
    task type break_thread;
    task type main_thread;
@@ -39,5 +39,6 @@ procedure Main is
    threads : array (1..threads_num) of main_thread;
 
 begin
-   delay (allowed_time_seconds + allowed_time_seconds_wait);
+   --delay (allowed_time_seconds + allowed_time_seconds_wait);
+   null;
 end Main;

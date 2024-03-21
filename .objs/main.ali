@@ -23,7 +23,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 RV MAX_TASKS=1+
 
-U main%b		main.adb		9d5e3908 NE OO SU
+U main%b		main.adb		b2a03689 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
@@ -60,7 +60,7 @@ D a-unccon.ads		20240206034119 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20240206034119 15f799c2 interfaces%s
 D i-c.ads		20240206034119 5c5a6c17 interfaces.c%s
 D i-cstrea.ads		20240206034119 e53d8b8e interfaces.c_streams%s
-D main.adb		20240222152143 c172585b main%b
+D main.adb		20240222175728 ee8c57da main%b
 D system.ads		20240206034119 426dafb8 system%s
 D s-atacco.ads		20240206034119 903317eb system.address_to_access_conversions%s
 D s-assert.ads		20240206034119 9c4520c7 system.assertions%s
@@ -113,12 +113,11 @@ X 16 a-textio.ads
 58K13*Text_IO 787e16 21|1w10 2r9
 566U14*Put_Line 21|35s7
 X 21 main.adb
-4U11*Main 4b11 43l5 43t9
+4U11*Main 4b11 44l5 44t9
 5b4 is_break{boolean} 7r18 18m7 31r20
 6i4 threads_num{integer} 39r24
 8i4 thread_id{integer} 27r26 28m7 28r20
-9o4 allowed_time_seconds{duration} 17r13 42r11
-10o4 allowed_time_seconds_wait{duration} 42r34
+9o4 allowed_time_seconds{duration} 17r13
 12T14 break_thread 15b14 19l8 19t20 38r8
 13T14 main_thread 21b14 36l8 36t19 39r40
 22i7 sequence_step{long_integer} 32r41
